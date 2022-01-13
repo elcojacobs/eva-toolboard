@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "eva-terminals")(type "KiCad")(uri "${KIPRJMOD}/eva-terminals.kicad_sym")(options "")(descr ""))
+)

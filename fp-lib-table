@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Eagle_WR-MM (rev20b)")(type "Eagle")(uri "/home/elco/repos/io-modules/probe-top/probe-top/libs/Eagle_WR-MM (rev20b).lbr")(options "")(descr ""))
+  (lib (name "Eagle_WR-TBL Spring Clamp (rev21a)")(type "Eagle")(uri "/home/elco/Downloads/Eagle_WR-TBL Spring Clamp (rev21a).lbr")(options "")(descr ""))
+)
