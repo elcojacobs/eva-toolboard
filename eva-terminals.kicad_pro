@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|120910001|93210001|01a88f86-a83c-4f92-819f-815264ae511b|df551e45-eaed-424c-ad25-05b8588e0435",
+        "courtyards_overlap|120910001|93260001|3661338f-6e1f-4643-8572-bcc68f972616|df551e45-eaed-424c-ad25-05b8588e0435",
+        "courtyards_overlap|134409999|93260001|3661338f-6e1f-4643-8572-bcc68f972616|01a88f86-a83c-4f92-819f-815264ae511b"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -118,12 +122,31 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.4,
+        1.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.6
+        },
+        {
+          "diameter": 2.5,
+          "drill": 1.5
         }
       ],
       "zones_allow_external_fillets": false,
@@ -352,7 +375,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -369,7 +392,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -394,7 +417,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -402,7 +425,12 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "signal",
-        "nets": [],
+        "nets": [
+          "CS",
+          "SCLK",
+          "SDI",
+          "SDO"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
