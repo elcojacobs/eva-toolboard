@@ -450,7 +450,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "eva-terminals.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
