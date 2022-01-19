@@ -2596,8 +2596,8 @@
     (in_bom yes) (on_board yes)
     (uuid 5fe389a6-3b67-4f61-94e4-0e6947503d87)
     (property "Reference" "U3" (id 0) (at 27.94 157.48 0))
-    (property "Value" "74AUP1G32" (id 1) (at 43.18 157.48 0))
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-553" (id 2) (at 34.29 153.67 0)
+    (property "Value" "SN74LVC1G32DBVR‎" (id 1) (at 43.18 157.48 0))
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 34.29 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (id 3) (at 34.29 153.67 0)
@@ -2860,7 +2860,7 @@
     (property "Reference" "R1" (id 0) (at 46.228 170.5415 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "510R" (id 1) (at 46.228 173.3166 0)
+    (property "Value" "470R" (id 1) (at 46.228 173.3166 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 42.672 171.45 90)
@@ -3509,7 +3509,7 @@
       (reference "JP8") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/a3a5d500-c79f-4b63-8e69-81b2d35d3d9a"
-      (reference "R1") (unit 1) (value "510R") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/8c8d1bce-bec6-4100-a14f-c30abc6be4b9"
       (reference "TH1") (unit 1) (value "PT1000") (footprint "Resistor_SMD:R_1206_3216Metric")
@@ -3521,7 +3521,7 @@
       (reference "U2") (unit 1) (value "ADXL345") (footprint "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y")
     )
     (path "/5fe389a6-3b67-4f61-94e4-0e6947503d87"
-      (reference "U3") (unit 1) (value "74AUP1G32") (footprint "Package_TO_SOT_SMD:SOT-553")
+      (reference "U3") (unit 1) (value "SN74LVC1G32DBVR‎") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
   )
 )
